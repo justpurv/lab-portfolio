@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Purva Patel • Portfolio</title>
+    <meta name="description" content="Portfolio of Purva Patel — BE IT at SVIT College. Java-focused, also Python, MySQL, HTML, CSS, Bash. Open-source, blogs, fitness.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a class="brand" href="#top" aria-label="Home">
+            <span class="brand__dot" aria-hidden="true"></span>
+            <span class="brand__text">Purva Patel</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#blogs" class="nav-link">Blogs</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Intro">
+            <div class="container">
+                <h1>Hi, I’m <span class="accent">Purva Patel</span></h1>
+                <p class="subtitle">BE in Information Technology • SVIT College</p>
+                <p class="lead">I build practical software with a focus on <strong>Java</strong>. I also work with Python, MySQL, HTML/CSS, and Bash; I enjoy open source, writing technical blogs, and fitness.</p>
+                <div class="cta">
+                    <a class="btn primary" href="#projects">View Projects</a>
+                    <a class="btn" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About</h2>
+                <p>I’m a student pursuing BE in IT at <strong>SVIT College</strong>. I enjoy learning by building and contributing to communities. My current focus is deepening backend foundations with Java and improving my problem‑solving through projects and open‑source contributions.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <article class="card">
+                        <h3>Languages</h3>
+                        <ul class="tags">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>MySQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bash</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Tools</h3>
+                        <ul class="tags">
+                            <li>Neovim (daily driver)</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Soft Skills</h3>
+                        <ul class="tags">
+                            <li>Communication</li>
+                            <li>Leadership</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Interests</h3>
+                        <ul class="tags">
+                            <li>Open Source Contribution</li>
+                            <li>Writing Technical Blogs</li>
+                            <li>Fitness</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <p class="muted">Featured work will appear here. For now, this is a placeholder — add your projects as you build them.</p>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Filled by script.js or manually add cards here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="blogs" class="section">
+            <div class="container">
+                <h2>Blogs</h2>
+                <p class="muted">I write about what I learn. Add links to your posts below.</p>
+                <ul class="list" id="blogList">
+                    <!-- Example placeholder items -->
+                    <li><a href="#" aria-disabled="true">How I configure Neovim for Java (coming soon)</a></li>
+                    <li><a href="#" aria-disabled="true">From SQL basics to queries I use daily (coming soon)</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you’d like to collaborate or just say hi, feel free to reach out.</p>
+                <div class="contact-cards">
+                    <a class="card link-card" href="mailto:purv260@gmail.com" aria-label="Email">
+                        <span>purv260@gmail.com</span>
+                    </a>
+                    <a class="card link-card" href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a class="card link-card" href="https://github.com/juspurv" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                        <span>GitHub • juspurv</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© <span id="year"></span> Purva Patel</span>
+            <a href="#top" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
